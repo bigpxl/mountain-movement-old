@@ -73,13 +73,9 @@
 								</a>
 							</div>
 						</div>
-						<div>
-							<ul>
-								<li class="text-2xl rozha-one"><a href="/">Home</a></li>
-								<li class="text-2xl rozha-one"><a href="/">Our Brands</a></li>
-								<li class="text-2xl rozha-one"><a href="/">Sale</a></li>
-								<li class="text-2xl rozha-one"><a href="/">Blog</a></li>
-							</ul>
+						<div class="text-2xl rozha-one">
+							{% assign links = linklists.footer.links %}
+							{% render 'menu-list' with links %}
 						</div>
 					</div>
 				</div>
@@ -87,59 +83,50 @@
 					<div class="grid grid-col-2 md:grid-cols-2 lg:grid-cols-4 gap-12">
 						<div>
 							<h2 class="text-2xl rozha-one">Activities</h2>
-							<ul class="mt-1 space-y-1">
-								<li class="montserrat"><a href="/">Snow</a></li>
-								<li class="montserrat"><a href="/">Bike</a></li>
-								<li class="montserrat"><a href="/">Hike</a></li>
-								<li class="montserrat"><a href="/">Camp</a></li>
-							</ul>
+							<div class="montserrat">
+								{% assign links = linklists.footer-column-one.links %}
+								{% render 'menu-list' with links %}
+							</div>
 						</div>
 
 						<div>
 							<h2 class="text-2xl rozha-one">About Us</h2>
-							<ul class="mt-1 space-y-1">
-								<li class="montserrat"><a href="/">Affilliate Program</a></li>
-								<li class="montserrat"><a href="/">Group Sales</a></li>
-								<li class="montserrat"><a href="/">Events</a></li>
-								<li class="montserrat"><a href="/">Financing</a></li>
-								<li class="montserrat"><a href="/">FAQS</a></li>
-							</ul>
+							<div class="montserrat">
+								{% assign links = linklists.footer-column-two.links %}
+								{% render 'menu-list' with links %}
+							</div>
 						</div>
 
 						<div>
 							<h2 class="text-2xl rozha-one">Support</h2>
-							<ul class="mt-1 space-y-1">
-								<li class="montserrat"><a href="/">Disclaimer</a></li>
-								<li class="montserrat"><a href="/">Privacy Policy</a></li>
-								<li class="montserrat"><a href="/">Shipping & Returns</a></li>
-								<li class="montserrat"><a href="/">Terms & Conditions</a></li>
-							</ul>
+							<div class="montserrat">
+								{% assign links = linklists.footer-column-three.links %}
+								{% render 'menu-list' with links %}
+							</div>
 						</div>
 
 						<div>
 							<h2 class="text-2xl rozha-one">Account</h2>
-							<ul class="mt-1 space-y-1">
-								<li class="montserrat"><a href="/">Register</a></li>
-								<li class="montserrat"><a href="/">Order History</a></li>
-								<li class="montserrat"><a href="/">My Wishlist</a></li>
-								<li class="montserrat"><a href="/">My Cart</a></li>
-							</ul>
+							<div class="montserrat">
+								{% assign links = linklists.footer-column-four.links %}
+								{% render 'menu-list' with links %}
+							</div>
 						</div>
 
 						<div>
 							<h2 class="text-2xl rozha-one">Aparrel</h2>
-							<ul class="mt-1 space-y-1">
-								<li class="montserrat"><a href="/">Men</a></li>
-								<li class="montserrat"><a href="/">Women</a></li>
-							</ul>
+							<div class="montserrat">
+								{% assign links = linklists.footer-column-five.links %}
+								{% render 'menu-list' with links %}
+							</div>
 						</div>
 
 						<div>
 							<h2 class="text-2xl rozha-one">Our Locations</h2>
-							<ul class="mt-1 space-y-1">
-								<li class="montserrat"><a href="/">Springfield</a></li>
-								<li class="montserrat"><a href="/">Branson</a></li>
-							</ul>
+							<div class="montserrat">
+								{% assign links = linklists.footer-column-six.links %}
+								{% render 'menu-list' with links %}
+							</div>
 						</div>
 
 						<div class="col-span-2">

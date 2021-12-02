@@ -154,13 +154,12 @@
                 <li class="grid__item{% unless item.object_type == 'product' %} grid__item--small{% endunless %}">
                   {%- case item.object_type -%}
                     {%- when 'product' -%}
-                      {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
+                      {%- capture product_settings -%}title,price{%- endcapture -%}
                       {% render 'product-card',
                         product_card_product: item,
                         media_size: section.settings.image_ratio,
                         show_secondary_image: section.settings.show_secondary_image,
                         add_image_padding: section.settings.add_image_padding,
-                        show_vendor: section.settings.show_vendor,
                         show_image_outline: section.settings.show_image_outline,
                         show_rating: section.settings.show_rating
                       %}
@@ -276,12 +275,6 @@
       "id": "show_image_outline",
       "default": true,
       "label": "t:sections.main-search.settings.show_image_outline.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_vendor",
-      "default": false,
-      "label": "t:sections.main-search.settings.show_vendor.label"
     },
     {
       "type": "checkbox",
