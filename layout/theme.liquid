@@ -94,6 +94,12 @@
         margin: 0;
       }
 
+      @font-face {
+        font-family: 'edo';
+        src: url('{{ 'edo.ttf' | asset_url }}') format('truetype');
+      }
+      
+
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}

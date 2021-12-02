@@ -3,10 +3,6 @@
   border-color: rgba(var(--color-foreground), 0.04);
 }
 
-.shopify-model-viewer-ui .shopify-model-viewer-ui__button {
-  color: rgba(var(--color-foreground), 0.75);
-}
-
 .shopify-model-viewer-ui .shopify-model-viewer-ui__button--control:hover {
   color: rgba(var(--color-foreground), 0.55);
 }

@@ -107,7 +107,6 @@ slider-component {
 }
 
 .slider-button {
-  color: rgba(var(--color-foreground), 0.75);
   background: transparent;
   border: none;
   cursor: pointer;

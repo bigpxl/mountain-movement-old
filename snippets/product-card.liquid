@@ -20,11 +20,11 @@
   <div class="card-information">
     <div class="card-information__wrapper">
       <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-      <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
+      <div class="edo text-mm-orange text-lg">{{ product_card_product.vendor }}</div>
 
 
       {%- if product_card_product.featured_media -%}
-        <h3 class="card-information__text h5">
+        <h3 class="montserrat font-bold text-lg">
           <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
             {{ product_card_product.title | escape }}
           </a>
@@ -58,7 +58,7 @@
     </div>
   </div>
 
-  <div class="card card--product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}{% if product_card_product.featured_media != nil and show_image_outline %} card--outline{% endif %}" tabindex="-1">
+  <div class="card px-4 card--product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}{% if product_card_product.featured_media != nil and show_image_outline %} card--outline{% endif %}" tabindex="-1">
     <div class="card__inner">
       {%- if product_card_product.featured_media -%}
         {%- liquid

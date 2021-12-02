@@ -8,6 +8,9 @@
 .rozha-one {
   font-family: 'Rozha One', serif;
 }
+.edo {
+  font-family:'edo';
+}
 
 /* Color custom properties */
 
@@ -261,16 +264,6 @@ html.no-js .no-js-hidden {
   margin-bottom: 0;
 }
 
-body,
-.color-background-1,
-.color-background-2,
-.color-inverse,
-.color-accent-1,
-.color-accent-2 {
-  color: rgba(var(--color-foreground), 0.75);
-  background-color: rgb(var(--color-background));
-}
-
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
   padding: 4rem 0 5rem;
@@ -362,7 +355,6 @@ body,
 
 blockquote {
   font-style: italic;
-  color: rgba(var(--color-foreground), 0.75);
   border-left: 0.2rem solid rgba(var(--color-foreground), 0.2);
   padding-left: 1rem;
 }
@@ -492,10 +484,6 @@ h6:empty {
 
 .link--text {
   color: rgb(var(--color-foreground));
-}
-
-.link--text:hover {
-  color: rgba(var(--color-foreground), 0.75);
 }
 
 .link-with-icon {
@@ -1267,10 +1255,6 @@ details[open] > .share-button__fallback {
   align-items: center;
 }
 
-.share-button__fallback button:hover {
-  color: rgba(var(--color-foreground), 0.75);
-}
-
 .share-button__fallback button:hover svg {
   transform: scale(1.07);
 }
@@ -1334,7 +1318,6 @@ details[open] > .share-button__fallback {
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
   font-size: 1.2rem;
-  color: rgba(var(--color-foreground), 0.75);
 }
 
 .field__input:hover,
@@ -1412,7 +1395,6 @@ details[open] > .share-button__fallback {
   position: absolute;
   transition: top var(--duration-short) ease,
     font-size var(--duration-short) ease;
-  color: rgba(var(--color-foreground), 0.75);
   letter-spacing: 0.1rem;
   line-height: 1.5;
 }
@@ -1853,7 +1835,6 @@ input[type='checkbox'] {
 
 .header__heading-link .h2 {
   line-height: 1;
-  color: rgba(var(--color-foreground), 0.75);
 }
 
 .header__heading-logo {
@@ -2123,7 +2104,6 @@ details[open] > .header__icon--menu .icon-hamburger {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
 }
 
 .header__menu-item:hover {

@@ -95,7 +95,6 @@ cart-items {
   line-height: 1;
   height: 1.8rem;
   margin-bottom: 2rem;
-  color: rgba(var(--color-foreground), 0.75);
 }
 
 .cart__note .field__input {
