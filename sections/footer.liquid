@@ -1,552 +1,168 @@
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
-{{ 'section-footer.css' | asset_url | stylesheet_tag }}
-<link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-list-payment.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-list-social.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'disclosure.css' | asset_url }}" media="print" onload="this.media='all'">
+<footer role="contentinfo" class="text-white">
+	<svg class="relative top-px" width="100%" height="auto" viewBox="0 0 1440 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M204 52L232.5 145.8H175.5L204 52Z" fill="#090A0F"/>
+		<path d="M413.6 58.4L442.1 152.2H385.1L413.6 58.4Z" fill="#090A0F"/>
+		<path d="M708.5 14.2L744 131H673.1L708.5 14.2Z" fill="#090A0F"/>
+		<path d="M257.3 18L280.6 94.6H234L257.3 18Z" fill="#090A0F"/>
+		<path d="M253.5 88.5H260.3V132.8H253.5V88.5Z" fill="#090A0F"/>
+		<path d="M372.2 127.8C362.314 127.8 354.3 119.786 354.3 109.9C354.3 100.014 362.314 92 372.2 92C382.085 92 390.1 100.014 390.1 109.9C390.1 119.786 382.085 127.8 372.2 127.8Z" fill="#090A0F"/>
+		<path d="M1104.9 98.3L1133.4 192.1H1076.4L1104.9 98.3Z" fill="#090A0F"/>
+		<path d="M1420.3 250.1L1390.9 153.3L1367.6 230.3L1420.3 250.1Z" fill="#090A0F"/>
+		<path d="M1380.6 234.5L1351.2 137.7L1327.8 214.7L1380.6 234.5Z" fill="#090A0F"/>
+		<path d="M923.1 156.5C913.214 156.5 905.2 148.486 905.2 138.6C905.2 128.714 913.214 120.7 923.1 120.7C932.986 120.7 941 128.714 941 138.6C941 148.486 932.986 156.5 923.1 156.5Z" fill="#090A0F"/>
+		<path d="M891.9 147.1C882.014 147.1 874 139.086 874 129.2C874 119.314 882.014 111.3 891.9 111.3C901.786 111.3 909.8 119.314 909.8 129.2C909.8 139.086 901.786 147.1 891.9 147.1Z" fill="#090A0F"/>
+		<path d="M1010.3 53.2L1038.8 147H981.8L1010.3 53.2Z" fill="#090A0F"/>
+		<path d="M1005.7 139.6H1014V193.9H1005.7V139.6Z" fill="#090A0F"/>
+		<path d="M1209.3 0L1253.5 145.2H1165.2L1209.3 0Z" fill="#090A0F"/>
+		<path d="M1202.2 133.9H1215V217.9H1202.2V133.9Z" fill="#090A0F"/>
+		<path d="M0.900024 115.1H750C790.1 115.1 830.1 118.8 869.5 126.2L1440 232.8V272.6H0.0999756L0.900024 115.1Z" fill="#090A0F"/>
+	</svg>
+	<div class="relative bg-mm-offblack">
+		<div class="mx-auto max-w-7xl px-4 pb-14 md:px-8 pt-8 md:pt-0">
+			<div class="grid grid-cols-12 mb-10">
+				<div class="col-span-12 md:col-span-6 lg:col-span-4">
+					<div class="grid grid-col-1 md:grid-cols-2 gap-12">
+						<div class="">
+							<svg class="mx-auto" width="168" height="109" viewBox="0 0 168 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M116.653 34.1787L65.1396 108.902H90.5045L103.334 91.8616L116.261 107.531L129.678 92.0575L140.059 109H167.578L116.653 34.1787ZM126.152 58.2704L118.709 65.3216L114.89 59.8373L101.375 66.3989L116.653 44.2659L126.152 58.2704ZM130.559 82.3621L116.457 98.6191L103.236 82.5579L87.7623 103.124H76.1082L94.8135 75.8984L113.029 66.9865L117.828 73.9398L129.384 62.9712L156.806 103.222H143.291L130.559 82.3621Z" fill="#FF7F40"/>
+								<path d="M97.7517 61.6002C85.51 57.3891 70.624 52.5903 70.624 52.5903C70.624 52.5903 70.624 59.8374 70.624 67.77C70.624 75.7027 64.3563 81.6766 54.7588 81.6766C54.7588 81.6766 54.9547 91.3721 54.9547 96.4646C54.9547 102.732 68.4695 104.006 73.4641 96.8564L97.7517 61.6002Z" fill="white"/>
+								<path d="M96.3806 0C92.0715 0 88.5459 3.52561 88.5459 7.83469V36.3334C88.5459 37.8024 87.2727 39.0755 85.8037 39.0755C84.4327 39.0755 83.2575 37.9983 83.0616 36.6272V21.7413C83.0616 17.4322 79.536 13.9066 75.2269 13.9066C70.9178 13.9066 67.3922 17.4322 67.3922 21.7413V36.6272C67.1963 37.9983 66.1191 38.9776 64.6501 38.9776C63.3769 38.9776 62.2996 38.0962 62.0058 36.8231V28.009C62.0058 24.8752 59.4596 22.4268 56.4236 22.4268C53.2898 22.4268 50.8414 24.9731 50.8414 28.009V36.8231C50.5476 38.0962 49.4703 38.9776 48.1972 38.9776C46.8261 38.9776 45.6509 37.9003 45.4551 36.6272V21.7413C45.4551 17.4322 41.9294 13.9066 37.6204 13.9066C33.3113 13.9066 29.7857 17.4322 29.7857 21.7413V36.6272C29.5898 37.9983 28.5125 39.0755 27.0435 39.0755C25.5745 39.0755 24.3014 37.8024 24.3014 36.3334V7.83469C24.3014 3.52561 20.7758 0 16.4667 0C12.1576 0 -0.475822 0.881406 0.013846 22.3289C0.503514 42.6012 19.1109 45.9309 20.482 45.9309C20.8737 45.9309 32.1361 45.9309 45.553 45.9309V67.4763C45.553 73.5482 50.5476 78.5428 56.6195 78.5428C62.6914 78.5428 67.686 73.5482 67.686 67.4763V45.9309C80.8091 45.9309 91.6798 45.9309 92.1694 45.9309C93.5405 45.833 112.148 42.6012 112.638 22.3289C113.323 0.881406 100.69 0 96.3806 0ZM49.8621 53.3738C48.7848 53.3738 47.9034 52.4924 47.9034 51.4152C47.9034 50.3379 48.7848 49.4565 49.8621 49.4565C50.9393 49.4565 51.8207 50.3379 51.8207 51.4152C51.8207 52.4924 51.0373 53.3738 49.8621 53.3738ZM63.5728 53.3738C62.4955 53.3738 61.6141 52.4924 61.6141 51.4152C61.6141 50.3379 62.4955 49.4565 63.5728 49.4565C64.6501 49.4565 65.5315 50.3379 65.5315 51.4152C65.5315 52.4924 64.6501 53.3738 63.5728 53.3738Z" fill="white"/>
+							</svg>
+							<div class="mt-3 mb-8 text-center flex items-center justify-center">
+								<span class="mx-1.5 rozha-one text-2xl text-mm-orange">Follow Us</span>
+								<a href="#" class="flex items-center mx-1.5">
+									<svg class="inline" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.50167 3.65419C5.3734 3.65419 3.65672 5.37125 3.65672 7.5C3.65672 9.62875 5.3734 11.3458 7.50167 11.3458C9.62995 11.3458 11.3466 9.62875 11.3466 7.5C11.3466 5.37125 9.62995 3.65419 7.50167 3.65419ZM7.50167 10.0003C6.12633 10.0003 5.00195 8.879 5.00195 7.5C5.00195 6.121 6.12298 4.99972 7.50167 4.99972C8.88037 4.99972 10.0014 6.121 10.0014 7.5C10.0014 8.879 8.87702 10.0003 7.50167 10.0003ZM12.4007 3.49688C12.4007 3.99559 11.9992 4.3939 11.5039 4.3939C11.0053 4.3939 10.6071 3.99225 10.6071 3.49688C10.6071 3.00151 11.0086 2.59985 11.5039 2.59985C11.9992 2.59985 12.4007 3.00151 12.4007 3.49688ZM14.9473 4.40729C14.8904 3.20568 14.616 2.1413 13.7359 1.26436C12.8592 0.387426 11.795 0.112964 10.5937 0.0527167C9.35555 -0.0175722 5.64445 -0.0175722 4.4063 0.0527167C3.20831 0.109617 2.14417 0.384079 1.26408 1.26102C0.383993 2.13796 0.112939 3.20233 0.052705 4.40394C-0.0175683 5.64236 -0.0175683 9.35429 0.052705 10.5927C0.109593 11.7943 0.383993 12.8587 1.26408 13.7356C2.14417 14.6126 3.20496 14.887 4.4063 14.9473C5.64445 15.0176 9.35555 15.0176 10.5937 14.9473C11.795 14.8904 12.8592 14.6159 13.7359 13.7356C14.6127 12.8587 14.8871 11.7943 14.9473 10.5927C15.0176 9.35429 15.0176 5.64571 14.9473 4.40729ZM13.3477 11.9215C13.0867 12.5775 12.5814 13.083 11.9222 13.3474C10.935 13.739 8.59258 13.6486 7.50167 13.6486C6.41076 13.6486 4.06497 13.7356 3.08115 13.3474C2.42526 13.0863 1.91997 12.5809 1.65561 11.9215C1.26408 10.9341 1.35443 8.59115 1.35443 7.5C1.35443 6.40885 1.26743 4.06253 1.65561 3.07849C1.91662 2.42246 2.42192 1.91705 3.08115 1.65263C4.06832 1.26102 6.41076 1.35139 7.50167 1.35139C8.59258 1.35139 10.9384 1.26436 11.9222 1.65263C12.5781 1.9137 13.0834 2.41911 13.3477 3.07849C13.7393 4.06588 13.6489 6.40885 13.6489 7.5C13.6489 8.59115 13.7393 10.9375 13.3477 11.9215Z" fill="#FF7F40"/>
+									</svg>
+								</a>
+								<a href="#" class="flex items-center mx-1.5">
+									<svg class="inline" width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.41022 9.5625L8.87692 6.4859H5.95887V4.48939C5.95887 3.6477 6.36649 2.82725 7.6734 2.82725H9V0.207852C9 0.207852 7.79615 0 6.64514 0C4.24203 0 2.67125 1.47355 2.67125 4.14109V6.4859H0V9.5625H2.67125V17H5.95887V9.5625H8.41022Z" fill="#FF7F40"/>
+									</svg>
+								</a>
+							</div>
 
-<noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-list-social.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
+							<svg class="mx-auto" width="158" height="53" viewBox="0 0 158 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4.96278 33.9124V12.3751H7.44418L0 4.96278H14.8565V17.3379H19.8193V0L29.7131 9.89375V34.6759H19.8193V22.3007H14.8565V43.8379L4.96278 33.9124Z" fill="#EE502D"/>
+								<path d="M38.2069 34.6759C36.839 34.6759 35.6619 34.1987 34.7075 33.2125C33.7531 32.2582 33.2441 31.0811 33.2441 29.7131V9.92564C33.2441 8.5577 33.7213 7.38063 34.7075 6.42624C35.6619 5.44005 36.839 4.96286 38.2069 4.96286H53.0635C54.4314 4.96286 55.6085 5.44005 56.5629 6.42624C57.5491 7.38063 58.0262 8.5577 58.0262 9.92564V29.745C58.0262 31.1129 57.5491 32.29 56.5629 33.2444C55.6085 34.1987 54.4314 34.7077 53.0635 34.7077H38.2069V34.6759ZM48.1325 27.2636V12.3752H43.1697V27.2636H48.1325Z" fill="#EE502D"/>
+								<path d="M61.5576 5.05822L71.4514 4.96278V18.7695L73.9328 16.2881L76.4142 18.7695V0L86.3397 9.92557V37.5708L73.9328 26.2137L61.5576 37.539V5.05822Z" fill="#EE502D"/>
+								<path d="M94.8015 34.6756C93.4336 34.6756 92.2565 34.1984 91.3021 33.2122C90.3478 32.2578 89.8388 31.0808 89.8388 29.7128V12.3749H92.3201L84.876 4.93073H99.7325V27.2633H102.755L109.054 34.7074H94.8015V34.6756Z" fill="#EE502D"/>
+								<path d="M114.239 34.6756C112.871 34.6756 111.694 34.1984 110.74 33.2122C109.785 32.2578 109.276 31.0808 109.276 29.7128V12.3749H111.758L104.313 4.93073H128.841L128.714 12.3749H119.17V17.3377H124.133V22.3005H119.17V27.2633H126.614L134.058 34.7074H114.239V34.6756Z" fill="#EE502D"/>
+								<path d="M147.516 24.7822L142.553 19.8194L147.516 14.8566V12.3752H142.553V34.6759H132.659V5.0583L152.478 4.96286C153.846 4.96286 155.024 5.44005 155.978 6.42625C156.964 7.38063 157.441 8.5577 157.441 9.92564V14.8566L152.478 19.8194L157.441 24.7822V33.9442L147.548 43.838V24.7822H147.516Z" fill="#EE502D"/>
+								<path d="M33.499 44.9833H38.1119C38.8754 44.9833 39.4798 45.1742 39.8934 45.5559C40.3069 45.9377 40.4978 46.4148 40.4978 46.9875C40.4978 47.4647 40.3388 47.8782 40.0524 48.1964C39.8616 48.4191 39.5753 48.6099 39.1935 48.7372C39.7661 48.8644 40.1797 49.1189 40.466 49.4371C40.7205 49.787 40.8796 50.2006 40.8796 50.7096C40.8796 51.1231 40.7841 51.5049 40.5933 51.823C40.4024 52.1411 40.1479 52.4275 39.7979 52.6183C39.5753 52.7456 39.2889 52.841 38.8754 52.8728C38.3346 52.9365 37.9528 52.9683 37.7619 52.9683H33.499V44.9833ZM35.9804 48.1327H37.062C37.4438 48.1327 37.7301 48.0691 37.8574 47.9419C38.0164 47.8146 38.0801 47.6237 38.0801 47.3692C38.0801 47.1465 38.0164 46.9557 37.8574 46.8284C37.6983 46.7012 37.4438 46.6375 37.062 46.6375H35.9804V48.1327ZM35.9804 51.2504H37.2529C37.6665 51.2504 37.9846 51.1868 38.1437 51.0277C38.3027 50.8686 38.3982 50.6778 38.3982 50.4233C38.3982 50.2006 38.3027 50.0097 38.1437 49.8506C37.9846 49.7234 37.6665 49.6279 37.2211 49.6279H35.9804V51.2504Z" fill="#EE502D"/>
+								<path d="M46.0654 44.9829H48.5468V52.9679H46.0654V44.9829Z" fill="#EE502D"/>
+								<path d="M54.1138 44.9829H56.5952V48.0051L59.1721 44.9829H62.4488L59.522 48.0051L62.576 52.9679H59.522L57.8359 49.6912L56.5634 51.0273V52.9679H54.082V44.9829H54.1138Z" fill="#EE502D"/>
+								<path d="M67.1895 44.9829H73.8065V46.7008H69.6708V47.9733H73.5202V49.5958H69.6708V51.1546H73.9337V52.9679H67.1895V44.9829Z" fill="#EE502D"/>
+								<path d="M84.75 44.9829H88.8538C89.7446 44.9829 90.4127 45.2056 90.858 45.6192C91.3034 46.0327 91.5261 46.6372 91.5261 47.4325C91.5261 48.2278 91.2716 48.8641 90.7944 49.3094C90.3172 49.7548 89.5537 49.9775 88.5675 49.9775H87.2314V52.9361H84.75V44.9829ZM87.2314 48.3869H87.8358C88.313 48.3869 88.6311 48.2914 88.822 48.1324C89.0129 47.9733 89.1083 47.7506 89.1083 47.4961C89.1083 47.2416 89.0129 47.0189 88.8538 46.8599C88.6948 46.7008 88.3766 46.6054 87.8995 46.6054H87.1996V48.3869H87.2314Z" fill="#EE502D"/>
+								<path d="M100.56 51.6636H97.7602L97.3784 52.9679H94.8652L97.8556 44.9829H100.56L103.55 52.9679H100.973L100.56 51.6636ZM100.051 49.9139L99.16 47.0507L98.301 49.9139H100.051Z" fill="#EE502D"/>
+								<path d="M108.164 52.9679V44.9829H112.268C113.031 44.9829 113.604 45.0465 114.018 45.1738C114.431 45.301 114.749 45.5555 115.004 45.9055C115.258 46.2554 115.386 46.7008 115.386 47.2098C115.386 47.6552 115.29 48.0369 115.099 48.3551C114.908 48.6732 114.654 48.9277 114.336 49.1504C114.113 49.2776 113.827 49.3731 113.477 49.4685C113.763 49.5639 113.986 49.6594 114.113 49.7548C114.208 49.8184 114.336 49.9457 114.495 50.1684C114.654 50.3911 114.781 50.5501 114.845 50.6774L116.054 52.9997H113.254L111.95 50.5501C111.791 50.232 111.632 50.0411 111.504 49.9457C111.314 49.8184 111.123 49.7548 110.9 49.7548H110.677V52.9997H108.164V52.9679ZM110.645 48.2278H111.695C111.823 48.2278 112.013 48.196 112.363 48.1324C112.522 48.1006 112.65 48.0051 112.777 47.8779C112.872 47.7506 112.936 47.5916 112.936 47.4007C112.936 47.1462 112.841 46.9553 112.681 46.7962C112.522 46.669 112.204 46.5735 111.759 46.5735H110.677V48.2278H110.645Z" fill="#EE502D"/>
+								<path d="M120.603 44.9829H123.084V48.0051L125.661 44.9829H128.937L126.011 48.0051L129.065 52.9679H126.043L124.356 49.6912L123.084 51.0273V52.9679H120.603V44.9829Z" fill="#EE502D"/>
+							</svg>
+							<div class="mt-3 mb-8 text-center flex items-center justify-center">
+								<span class="mx-1.5 rozha-one text-2xl text-howler-orange">Follow Us</span>
+								<a href="#" class="flex items-center mx-1.5">
+									<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.50167 3.65419C5.3734 3.65419 3.65672 5.37125 3.65672 7.5C3.65672 9.62875 5.3734 11.3458 7.50167 11.3458C9.62995 11.3458 11.3466 9.62875 11.3466 7.5C11.3466 5.37125 9.62995 3.65419 7.50167 3.65419ZM7.50167 10.0003C6.12633 10.0003 5.00195 8.879 5.00195 7.5C5.00195 6.121 6.12298 4.99972 7.50167 4.99972C8.88037 4.99972 10.0014 6.121 10.0014 7.5C10.0014 8.879 8.87702 10.0003 7.50167 10.0003V10.0003ZM12.4007 3.49688C12.4007 3.99559 11.9992 4.3939 11.5039 4.3939C11.0053 4.3939 10.6071 3.99225 10.6071 3.49688C10.6071 3.00151 11.0086 2.59985 11.5039 2.59985C11.9992 2.59985 12.4007 3.00151 12.4007 3.49688ZM14.9473 4.40729C14.8904 3.20568 14.616 2.1413 13.7359 1.26436C12.8592 0.387426 11.795 0.112964 10.5937 0.0527167C9.35555 -0.0175722 5.64445 -0.0175722 4.4063 0.0527167C3.20831 0.109617 2.14417 0.384079 1.26408 1.26102C0.383993 2.13796 0.112939 3.20233 0.052705 4.40394C-0.0175683 5.64236 -0.0175683 9.35429 0.052705 10.5927C0.109593 11.7943 0.383993 12.8587 1.26408 13.7356C2.14417 14.6126 3.20496 14.887 4.4063 14.9473C5.64445 15.0176 9.35555 15.0176 10.5937 14.9473C11.795 14.8904 12.8592 14.6159 13.7359 13.7356C14.6127 12.8587 14.8871 11.7943 14.9473 10.5927C15.0176 9.35429 15.0176 5.64571 14.9473 4.40729V4.40729ZM13.3477 11.9215C13.0867 12.5775 12.5814 13.083 11.9222 13.3474C10.935 13.739 8.59258 13.6486 7.50167 13.6486C6.41076 13.6486 4.06497 13.7356 3.08115 13.3474C2.42526 13.0863 1.91997 12.5809 1.65561 11.9215C1.26408 10.9341 1.35443 8.59115 1.35443 7.5C1.35443 6.40885 1.26743 4.06253 1.65561 3.07849C1.91662 2.42246 2.42192 1.91705 3.08115 1.65263C4.06832 1.26102 6.41076 1.35139 7.50167 1.35139C8.59258 1.35139 10.9384 1.26436 11.9222 1.65263C12.5781 1.9137 13.0834 2.41911 13.3477 3.07849C13.7393 4.06588 13.6489 6.40885 13.6489 7.5C13.6489 8.59115 13.7393 10.9375 13.3477 11.9215Z" fill="#EE502D"/>
+									</svg>
+								</a>
+								<a href="#" class="flex items-center mx-1.5">
+									<svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.41022 9.5625L8.87692 6.4859H5.95887V4.48939C5.95887 3.6477 6.36649 2.82725 7.6734 2.82725H9V0.207852C9 0.207852 7.79615 0 6.64514 0C4.24203 0 2.67125 1.47355 2.67125 4.14109V6.4859H0V9.5625H2.67125V17H5.95887V9.5625H8.41022Z" fill="#EE502D"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div>
+							<ul>
+								<li class="text-2xl rozha-one"><a href="/">Home</a></li>
+								<li class="text-2xl rozha-one"><a href="/">Our Brands</a></li>
+								<li class="text-2xl rozha-one"><a href="/">Sale</a></li>
+								<li class="text-2xl rozha-one"><a href="/">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-span-12 md:col-span-6 lg:col-span-8">
+					<div class="grid grid-col-2 md:grid-cols-2 lg:grid-cols-4 gap-12">
+						<div>
+							<h2 class="text-2xl rozha-one">Activities</h2>
+							<ul class="mt-1 space-y-1">
+								<li class="montserrat"><a href="/">Snow</a></li>
+								<li class="montserrat"><a href="/">Bike</a></li>
+								<li class="montserrat"><a href="/">Hike</a></li>
+								<li class="montserrat"><a href="/">Camp</a></li>
+							</ul>
+						</div>
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient">
-  {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
-    <div class="footer__content-top page-width">
-      {%- if section.blocks.size > 0 -%}
-        {%- liquid
-          if section.blocks.size == 9
-            assign footer_grid_class = 'grid--3-col-tablet'
-          elsif section.blocks.size > 6
-            assign footer_grid_class = 'grid--4-col-desktop'
-          elsif section.blocks.size > 4
-            assign footer_grid_class = 'grid--3-col-tablet'
-          endif
-        -%}
-        <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
-          {%- for block in section.blocks -%}
-            <div class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
-              {%- if block.settings.heading != blank -%}
-                <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
-              {%- endif -%}
+						<div>
+							<h2 class="text-2xl rozha-one">About Us</h2>
+							<ul class="mt-1 space-y-1">
+								<li class="montserrat"><a href="/">Affilliate Program</a></li>
+								<li class="montserrat"><a href="/">Group Sales</a></li>
+								<li class="montserrat"><a href="/">Events</a></li>
+								<li class="montserrat"><a href="/">Financing</a></li>
+								<li class="montserrat"><a href="/">FAQS</a></li>
+							</ul>
+						</div>
 
-              {%- case block.type -%}
-                {%- when 'text' -%}
-                  <div class="footer-block__details-content rte">
-                    {{ block.settings.subtext }}
-                  </div>
-                {%- when 'link_list' -%}
-                  {%- if block.settings.menu != blank and block.settings.heading != blank -%}
-                    <ul class="footer-block__details-content list-unstyled">
-                      {%- for link in block.settings.menu.links -%}
-                        <li>
-                          <a href="{{ link.url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
-                            {{ link.title }}
-                          </a>
-                        </li>
-                      {%- endfor -%}
-                    </ul>
-                  {%- endif -%}
-                {%- when 'image' -%}
-                  <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
-                    {%- if block.settings.image != blank -%}
-                      {%- assign image_size = block.settings.image_width | append: 'x' -%}
-                      <img
-                        srcset= "{{ block.settings.image | img_url: image_size }}, {{ block.settings.image | img_url: image_size, scale: 2 }} 2x"
-                        src="{{ block.settings.image | img_url: '400x' }}"
-                        alt="{{ block.settings.image.alt | escape }}"
-                        loading="lazy"
-                        width="{{ block.settings.image.width }}"
-                        height="{{ block.settings.image.height }}"
-                        style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                      >
-                    {%- else -%}
-                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-                    {%- endif -%}
-                  </div>
-                {%- endcase -%}
-            </div>
-          {%- endfor -%}
-        </div>
-      {%- endif -%}
+						<div>
+							<h2 class="text-2xl rozha-one">Support</h2>
+							<ul class="mt-1 space-y-1">
+								<li class="montserrat"><a href="/">Disclaimer</a></li>
+								<li class="montserrat"><a href="/">Privacy Policy</a></li>
+								<li class="montserrat"><a href="/">Shipping & Returns</a></li>
+								<li class="montserrat"><a href="/">Terms & Conditions</a></li>
+							</ul>
+						</div>
 
-      <div class="footer-block--newsletter">
-        {%- if section.settings.newsletter_enable -%}
-          <div class="footer-block__newsletter">
-            {%- if section.settings.newsletter_heading != blank -%}
-              <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
-            {%- endif -%}
-            {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
-              <input type="hidden" name="contact[tags]" value="newsletter">
-              <div class="newsletter-form__field-wrapper">
-                <div class="field">
-                  <input
-                    id="NewsletterForm--{{ section.id }}"
-                    type="email"
-                    name="contact[email]"
-                    class="field__input"
-                    value="{{ form.email }}"
-                    aria-required="true"
-                    autocorrect="off"
-                    autocapitalize="off"
-                    autocomplete="email"
-                    {% if form.errors %}
-                      autofocus
-                      aria-invalid="true"
-                      aria-describedby="ContactFooter-error"
-                    {% elsif form.posted_successfully? %}
-                      aria-describedby="ContactFooter-success"
-                    {% endif %}
-                    placeholder="{{ 'newsletter.label' | t }}"
-                    required
-                  >
-                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                    {{ 'newsletter.label' | t }}
-                  </label>
-                  <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                    {% render 'icon-arrow' %}
-                  </button>
-                </div>
-                {%- if form.errors -%}
-                  <small class="newsletter-form__message form__message" id="ContactFooter-error">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
-                {%- endif -%}
-              </div>
-              {%- if form.posted_successfully? -%}
-                <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
-              {%- endif -%}
-            {%- endform -%}
-          </div>
-        {%- endif -%}
+						<div>
+							<h2 class="text-2xl rozha-one">Account</h2>
+							<ul class="mt-1 space-y-1">
+								<li class="montserrat"><a href="/">Register</a></li>
+								<li class="montserrat"><a href="/">Order History</a></li>
+								<li class="montserrat"><a href="/">My Wishlist</a></li>
+								<li class="montserrat"><a href="/">My Cart</a></li>
+							</ul>
+						</div>
 
-        {%- if section.settings.show_social -%}
-          <ul class="footer__list-social list-unstyled list-social" role="list">
-            {%- if settings.social_twitter_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_twitter_link }}" class="link list-social__link" >
-                  {%- render 'icon-twitter' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_facebook_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_facebook_link }}" class="link list-social__link" >
-                  {%- render 'icon-facebook' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_pinterest_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_pinterest_link }}" class="link list-social__link" >
-                  {%- render 'icon-pinterest' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_instagram_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_instagram_link }}" class="link list-social__link" >
-                  {%- render 'icon-instagram' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_tiktok_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_tiktok_link }}" class="link list-social__link" >
-                  {%- render 'icon-tiktok' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_tumblr_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_tumblr_link }}" class="link list-social__link" >
-                  {%- render 'icon-tumblr' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_snapchat_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_snapchat_link }}" class="link list-social__link" >
-                  {%- render 'icon-snapchat' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_youtube_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_youtube_link }}" class="link list-social__link" >
-                  {%- render 'icon-youtube' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-            {%- if settings.social_vimeo_link != blank -%}
-              <li class="list-social__item">
-                <a href="{{ settings.social_vimeo_link }}" class="link list-social__link" >
-                  {%- render 'icon-vimeo' -%}
-                  <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
-                </a>
-              </li>
-            {%- endif -%}
-          </ul>
-        {%- endif -%}
-      </div>
-    </div>
-  {%- endif -%}
+						<div>
+							<h2 class="text-2xl rozha-one">Aparrel</h2>
+							<ul class="mt-1 space-y-1">
+								<li class="montserrat"><a href="/">Men</a></li>
+								<li class="montserrat"><a href="/">Women</a></li>
+							</ul>
+						</div>
 
-  <div class="footer__content-bottom">
-    <div class="footer__content-bottom-wrapper page-width">
-      <div class="footer__column footer__localization">
-        {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
-          <noscript>
-            {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
-              <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
-                <select class="localization-selector link" name="country_code" aria-labelledby="FooterCountryLabelNoScript">
-                  {%- for country in localization.available_countries -%}
-                    <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
-                      {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-              <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
-            {%- endform -%}
-          </noscript>
-          <localization-form>
-            {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
-              <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
-                <div class="disclosure">
-                  <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false" aria-controls="FooterCountryList" aria-describedby="FooterCountryLabel">
-                    {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
-                    {% render 'icon-caret' %}
-                  </button>
-                  <ul id="FooterCountryList" role="list" class="disclosure__list list-unstyled" hidden>
-                    {%- for country in localization.available_countries -%}
-                      <li class="disclosure__item" tabindex="-1">
-                        <a class="link link--text disclosure__link caption-large{% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
-                          {{ country.name }} <span class="localization-form__currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
-                        </a>
-                      </li>
-                    {%- endfor -%}
-                  </ul>
-                </div>
-                <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
-              </div>
-            {%- endform -%}
-          </localization-form>
-        {%- endif -%}
+						<div>
+							<h2 class="text-2xl rozha-one">Our Locations</h2>
+							<ul class="mt-1 space-y-1">
+								<li class="montserrat"><a href="/">Springfield</a></li>
+								<li class="montserrat"><a href="/">Branson</a></li>
+							</ul>
+						</div>
 
-        {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
-          <noscript>
-            {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
-              <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">{{ 'localization.language_label' | t }}</h2>
-                <select class="localization-selector link" name="locale_code" aria-labelledby="FooterLanguageLabelNoScript">
-                  {%- for language in localization.available_languages -%}
-                    <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
-                      {{ language.endonym_name | capitalize }}
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-              <button class="button button--tertiary">{{ 'localization.update_language' | t }}</button>
-            {%- endform -%}
-          </noscript>
-
-          <localization-form>
-            {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
-              <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterLanguageLabel">{{ 'localization.language_label' | t }}</h2>
-                <div class="disclosure">
-                  <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false" aria-controls="FooterLanguageList" aria-describedby="FooterLanguageLabel">
-                    {{ localization.language.endonym_name | capitalize }}
-                    {% render 'icon-caret' %}
-                  </button>
-                  <ul id="FooterLanguageList" role="list" class="disclosure__list list-unstyled" hidden>
-                    {%- for language in localization.available_languages -%}
-                      <li class="disclosure__item" tabindex="-1">
-                        <a class="link link--text disclosure__link caption-large{% if language.iso_code == localization.language.iso_code %} disclosure__link--active{% endif %} focus-inset" href="#" hreflang="{{ language.iso_code }}" lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %} data-value="{{ language.iso_code }}">
-                          {{ language.endonym_name | capitalize }}
-                        </a>
-                      </li>
-                    {%- endfor -%}
-                  </ul>
-                </div>
-                <input type="hidden" name="locale_code" value="{{ localization.language.iso_code }}">
-              </div>
-            {%- endform -%}
-          </localization-form>
-        {%- endif -%}
-      </div>
-      <div class="footer__column footer__column--info">
-        {%- if section.settings.payment_enable -%}
-          <div class="footer__payment">
-            <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-            <ul class="list list-payment" role="list">
-              {%- for type in shop.enabled_payment_types -%}
-                <li class="list-payment__item">
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
-        <div class="footer__copyright caption">
-          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
-        </div>
-      </div>
-    </div>
-  </div>
+						<div class="col-span-2">
+							<h2 class="text-2xl rozha-one">Newsletter</h2>
+							<p>Sign up to get the lastest deals.</p>
+							<div class="mt-2">
+								<!-- Newsletter Here -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr/>
+			<div class="py-3 flex leading-6 justify-between montserrat text-sm">
+				<p>Copyright © 2021 Empire Supply <br/> Powered by Shopify</p>
+				<p>Website Design by BigPxl</p>
+			</div>
+		</div>
+	</div>
 </footer>
-
-{% javascript %}
-  class LocalizationForm extends HTMLElement {
-    constructor() {
-      super();
-      this.elements = {
-        input: this.querySelector('input[name="locale_code"], input[name="country_code"]'),
-        button: this.querySelector('button'),
-        panel: this.querySelector('ul'),
-      };
-      this.elements.button.addEventListener('click', this.openSelector.bind(this));
-      this.elements.button.addEventListener('focusout', this.closeSelector.bind(this));
-      this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
-
-      this.querySelectorAll('a').forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
-    }
-
-    hidePanel() {
-      this.elements.button.setAttribute('aria-expanded', 'false');
-      this.elements.panel.setAttribute('hidden', true);
-    }
-
-    onContainerKeyUp(event) {
-      if (event.code.toUpperCase() !== 'ESCAPE') return;
-
-      this.hidePanel();
-      this.elements.button.focus();
-    }
-
-    onItemClick(event) {
-      event.preventDefault();
-      const form = this.querySelector('form');
-      this.elements.input.value = event.currentTarget.dataset.value;
-      if (form) form.submit();
-    }
-
-    openSelector() {
-      this.elements.button.focus();
-      this.elements.panel.toggleAttribute('hidden');
-      this.elements.button.setAttribute('aria-expanded', (this.elements.button.getAttribute('aria-expanded') === 'false').toString());
-    }
-
-    closeSelector(event) {
-      const shouldClose = event.relatedTarget && event.relatedTarget.nodeName === 'BUTTON';
-      if (event.relatedTarget === null || shouldClose) {
-        this.hidePanel();
-      }
-    }
-  }
-
-  customElements.define('localization-form', LocalizationForm);
-{% endjavascript %}
 
 {% schema %}
 {
-  "name": "t:sections.footer.name",
-  "blocks": [
-    {
-      "type": "link_list",
-      "name": "t:sections.footer.blocks.link_list.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Quick links",
-          "label": "t:sections.footer.blocks.link_list.settings.heading.label",
-          "info": "t:sections.footer.blocks.link_list.settings.heading.info"
-        },
-        {
-          "type": "link_list",
-          "id": "menu",
-          "default": "footer",
-          "label": "t:sections.footer.blocks.link_list.settings.menu.label",
-          "info": "t:sections.footer.blocks.link_list.settings.menu.info"
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "t:sections.footer.blocks.text.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Heading",
-          "label": "t:sections.footer.blocks.text.settings.heading.label"
-        },
-        {
-          "type": "richtext",
-          "id": "subtext",
-          "default": "<p>Share store details, promotions, or brand content with your customers.</p>",
-          "label": "t:sections.footer.blocks.text.settings.subtext.label"
-        }
-      ]
-    },
-    {
-      "type": "image",
-      "name": "Image",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "range",
-          "id": "image_width",
-          "min": 50,
-          "max": 200,
-          "step": 5,
-          "unit": "px",
-          "label": "Image width",
-          "default": 100
-        },
-        {
-          "type": "select",
-          "id": "alignment",
-          "label": "Image alignment on large screen",
-          "options": [
-            {
-              "value": "",
-              "label": "Left"
-            },
-            {
-              "value": "center",
-              "label": "Center"
-            },
-            {
-              "value": "right",
-              "label": "Right"
-            }
-          ],
-          "default": "center"
-        }
-      ]
-    }
-  ],
-  "settings": [
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.footer.settings.color_scheme.options__1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.footer.settings.color_scheme.options__2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.footer.settings.color_scheme.options__3.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.footer.settings.color_scheme.options__4.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.footer.settings.color_scheme.options__5.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.footer.settings.color_scheme.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__1.content",
-      "info": "t:sections.footer.settings.header__1.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "newsletter_enable",
-      "default": true,
-      "label": "t:sections.footer.settings.newsletter_enable.label"
-    },
-    {
-      "type": "text",
-      "id": "newsletter_heading",
-      "default": "Subscribe to our emails",
-      "label": "t:sections.footer.settings.newsletter_heading.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__2.content",
-      "info": "t:sections.footer.settings.header__2.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_social",
-      "default": false,
-      "label": "t:sections.footer.settings.show_social.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__3.content",
-      "info": "t:sections.footer.settings.header__4.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_country_selector",
-      "default": true,
-      "label": "t:sections.footer.settings.enable_country_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__5.content",
-      "info": "t:sections.footer.settings.header__6.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_language_selector",
-      "default": true,
-      "label": "t:sections.footer.settings.enable_language_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__7.content"
-    },
-    {
-      "type": "checkbox",
-      "id": "payment_enable",
-      "default": true,
-      "label": "t:sections.footer.settings.payment_enable.label"
-    }
-  ],
-  "default": {
-    "blocks": [
-      {
-        "type": "link_list"
-      },
-      {
-        "type": "text"
-      }
-    ]
-  }
+	"name": "t:sections.footer.name"
 }
 {% endschema %}
