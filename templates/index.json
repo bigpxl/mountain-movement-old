@@ -3,6 +3,7 @@
     "homepage-header": {
       "type": "homepage-header",
       "settings": {
+        "image": "shopify:\/\/shop_images\/bridge_jump_desktop.jpg"
       }
     },
     "our-brands-slider": {
