@@ -3,3 +3,8 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+.btn {
+    @apply inline-flex items-center border-0;
+    padding:8px 20px;
+}
