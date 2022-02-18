@@ -540,6 +540,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.5rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -564,16 +569,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .ml-3 {
   margin-left: 0.75rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .block {
@@ -602,6 +607,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-px {
   height: 1px;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-6 {
+  height: 1.5rem;
 }
 
 .w-6 {
@@ -720,18 +733,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 10rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-10 {
   padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.pb-10 {
   padding-bottom: 2.5rem;
 }
 
@@ -782,12 +794,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-extrabold {
   font-weight: 800;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -839,6 +851,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
   border-width: 0px;
   padding:8px 20px;
+}
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: none !important;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: none !important;
+}
+
+/** Typography **/
+
+.heading {
+  font-family:'Edo';
+  font-size:55px;
+  line-height:65px;
+  letter-spacing: 0.1em;
+  text-transform:uppercase;
 }
 
 @media (min-width: 768px) {

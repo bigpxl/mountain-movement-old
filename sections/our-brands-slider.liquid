@@ -1,6 +1,40 @@
-<section>
-
+<section class="my-12">
+    <h3 class="heading text-center pb-10">Our Brands</h3>
+    <div class="relative flex px-16">
+        <div class="swiper-button-prev">
+            <svg class="h-6 w-6" width="22" height="37" viewBox="0 0 22 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 34L4 18.5L19 3" stroke="black" stroke-width="5" stroke-linecap="round"/>
+            </svg>                
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                {%- for block in section.blocks -%}
+                    <div class="swiper-slide">
+                        <div class="flex items-center h-56">
+                            <img class="mx-auto" src="{{ block.settings.brand-logo | img_url: '1500x'}}"/>
+                        </div>
+                    </div>
+                {%- endfor -%}
+            </div>
+        </div>
+        <div class="swiper-button-next">
+            <svg class="h-6 w-6" width="22" height="37" viewBox="0 0 22 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 3L18 18.5L3 34" stroke="black" stroke-width="5" stroke-linecap="round"/>
+            </svg>                               
+        </div>
+    </div>
 </section>
+<script>
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        slidesPerView: 5,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }
+      });
+</script>
 {% schema %}
 {
     "name":"Our Brands",

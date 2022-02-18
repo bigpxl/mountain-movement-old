@@ -8,3 +8,21 @@
     @apply inline-flex items-center border-0;
     padding:8px 20px;
 }
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+    content: none !important;
+}
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-prev:after {
+    content: none !important;
+}
+
+/** Typography **/
+.heading {
+    font-family:'Edo';
+    font-size:55px;
+    line-height:65px;
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+}
