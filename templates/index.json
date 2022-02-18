@@ -48,6 +48,82 @@
     },
     "our-brands-slider": {
       "type": "our-brands-slider",
+      "blocks": {
+        "82ae010d-5dce-4efe-9bec-062d3a574276": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/CushCore.png",
+            "brand-site": ""
+          }
+        },
+        "b667edd9-03fe-4c6b-96e4-3fe20f526eea": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/Yeti.png",
+            "brand-site": ""
+          }
+        },
+        "03ac060b-bc4a-4bf0-a219-b150b67c6bd4": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/OneUp_Components.png",
+            "brand-site": ""
+          }
+        },
+        "73b1f109-da45-413c-b16f-6c597c6ac657": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/Fox_Racing.png",
+            "brand-site": ""
+          }
+        },
+        "f4ff2db4-447e-4447-8e0d-c5ee09678dcd": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/Shimano.png",
+            "brand-site": ""
+          }
+        },
+        "6e327972-59b0-4d57-bcb2-ed84f29b54b3": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/Ride_Concepts.png",
+            "brand-site": ""
+          }
+        },
+        "4c18309e-0e13-4e7f-8173-8906cf09618c": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/Osprey.png",
+            "brand-site": ""
+          }
+        },
+        "09ce08ec-5808-4c64-b640-4ffab01f7082": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/Maxxis.png",
+            "brand-site": ""
+          }
+        },
+        "f86c2a4e-f50f-458a-bfb7-441776217194": {
+          "type": "brand",
+          "settings": {
+            "brand-logo": "shopify:\/\/shop_images\/Chromag.png",
+            "brand-site": ""
+          }
+        }
+      },
+      "block_order": [
+        "82ae010d-5dce-4efe-9bec-062d3a574276",
+        "b667edd9-03fe-4c6b-96e4-3fe20f526eea",
+        "03ac060b-bc4a-4bf0-a219-b150b67c6bd4",
+        "73b1f109-da45-413c-b16f-6c597c6ac657",
+        "f4ff2db4-447e-4447-8e0d-c5ee09678dcd",
+        "6e327972-59b0-4d57-bcb2-ed84f29b54b3",
+        "4c18309e-0e13-4e7f-8173-8906cf09618c",
+        "09ce08ec-5808-4c64-b640-4ffab01f7082",
+        "f86c2a4e-f50f-458a-bfb7-441776217194"
+      ],
       "settings": {
       }
     },
