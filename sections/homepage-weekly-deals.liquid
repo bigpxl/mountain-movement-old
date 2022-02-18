@@ -1,0 +1,69 @@
+<section id="lottie-wrapper">
+    <lottie-player 
+        id="bike-jump"
+        src="./assets/bike-jump.json" 
+        background="transparent" 
+        mode="normal">
+    </lottie-player>
+
+    <div>
+        <h2 class="heading bg-black py-56 text-howler-orange text-center">Deals of The Week</h2>
+    </div>
+</section>
+
+<svg width="1440" height="429" viewBox="0 0 1440 429" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_882_26366)">
+        <path d="M0.0999756 150.7H641.9C685 150.7 727.9 157.7 768.8 171.3L1824.5 428.5H1220.2H0.0999756V150.7Z" fill="white"/>
+        <path d="M335.2 78.6L306.7 172.4H363.7L335.2 78.6Z" fill="white"/>
+        <path d="M374.7 95.2L346.2 188.9H403.2L374.7 95.2Z" fill="white"/>
+        <path d="M517 66.8L488.5 160.6H545.5L517 66.8Z" fill="white"/>
+        <path d="M401.4 97.9L372.9 191.7H429.9L401.4 97.9Z" fill="white"/>
+        <path d="M84.9 168.8C94.7859 168.8 102.8 160.786 102.8 150.9C102.8 141.014 94.7859 133 84.9 133C75.0141 133 67 141.014 67 150.9C67 160.786 75.0141 168.8 84.9 168.8Z" fill="white"/>
+        <path d="M120.8 168.8C130.686 168.8 138.7 160.786 138.7 150.9C138.7 141.014 130.686 133 120.8 133C110.914 133 102.9 141.014 102.9 150.9C102.9 160.786 110.914 168.8 120.8 168.8Z" fill="white"/>
+        <path d="M156.7 168.8C166.586 168.8 174.6 160.786 174.6 150.9C174.6 141.014 166.586 133 156.7 133C146.814 133 138.8 141.014 138.8 150.9C138.8 160.786 146.814 168.8 156.7 168.8Z" fill="white"/>
+        <path d="M929.5 234.7C935.133 234.7 939.7 230.133 939.7 224.5C939.7 218.867 935.133 214.3 929.5 214.3C923.867 214.3 919.3 218.867 919.3 224.5C919.3 230.133 923.867 234.7 929.5 234.7Z" fill="white"/>
+        <path d="M949.6 238.1C955.233 238.1 959.8 233.533 959.8 227.9C959.8 222.267 955.233 217.7 949.6 217.7C943.967 217.7 939.4 222.267 939.4 227.9C939.4 233.533 943.967 238.1 949.6 238.1Z" fill="white"/>
+        <path d="M206 73.7L186.5 137.9H225.6L206 73.7Z" fill="white"/>
+        <path d="M209.2 132.9H203.5V170.1H209.2V132.9Z" fill="white"/>
+        <path d="M994.3 185.5L979.3 234.9H1009.4L994.3 185.5Z" fill="white"/>
+        <path d="M996.8 231H992.4V259.6H996.8V231Z" fill="white"/>
+        <path d="M884.3 217L865.3 154.4L850.1 204.2L884.3 217Z" fill="white"/>
+        <path d="M858.6 206.9L839.5 144.3L824.4 194.1L858.6 206.9Z" fill="white"/>
+        <path d="M833.7 197.7L814.7 135.1L799.6 184.9L833.7 197.7Z" fill="white"/>
+    </g>
+    <defs>
+        <clipPath id="clip0_882_26366">
+            <rect width="1440" height="428.5" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
+
+<script defer="true">
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("loaded");
+
+        LottieInteractivity.create({
+            player: '#bike-jump',
+            mode: 'scroll',
+            container:"#lottie-wrapper",
+            actions: [
+                {
+                    visibility:[0, 0.3],
+                    type: "stop",
+                    frames: [50]
+                },
+                {
+                    visibility: [0.3,1],
+                    type: 'seek',
+                    frames: [0, 120],
+                },
+            ]
+        });
+    });
+</script>
+
+{% schema %}
+{
+    "name":"Weekly Deals"
+}
+{% endschema %}

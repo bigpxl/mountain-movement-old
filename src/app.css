@@ -18,6 +18,11 @@
     content: none !important;
 }
 
+/** Layout **/
+.container {
+    @apply max-w-screen-2xl mx-auto my-12 px-3;
+}
+
 /** Typography **/
 .heading {
     font-family:'Edo';
@@ -25,4 +30,7 @@
     line-height:65px;
     letter-spacing: 0.1em;
     text-transform:uppercase;
+}
+p {
+    @apply text-lg;
 }
