@@ -14,7 +14,15 @@
 		</button>
 	</div>
 </section>
-
+<section class="flex items-center justify-center py-10">
+	{%- for block in section.blocks -%}
+		<div class="mx-6 text-center">
+			<div class="flex justify-center mb-2">{{ block.settings.icon}}</div>
+			<div class="raleway font-extrabold text-lg">{{ block.settings.icon-heading}}</div>
+			<p class="montserrat">{{ block.settings.icon-sub-heading}}</p>
+		</div>
+	{%- endfor -%}
+</section>
 {% schema %}
 {
 	"name": "Homepage Header",
