@@ -130,6 +130,12 @@
     "collections-grid": {
       "type": "collections-grid",
       "settings": {
+        "collection-1": "tents",
+        "collection-2": "backpacks",
+        "collection-3": "winter-gear",
+        "collection-4": "bottles",
+        "collection-5": "shirts",
+        "collection-6": "tires"
       }
     },
     "homepage-weekly-deals": {
@@ -140,6 +146,7 @@
     "featured-collections": {
       "type": "featured-collections",
       "settings": {
+        "collection": ""
       }
     },
     "recently-viewed": {
