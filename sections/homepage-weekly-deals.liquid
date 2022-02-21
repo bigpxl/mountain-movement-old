@@ -6,8 +6,33 @@
         mode="normal">
     </lottie-player>
 
-    <div class="pb-32 bg-black ">
-        <h2 class="heading py-56 text-howler-orange text-center">Deals of The Week</h2>
+    <div class="py-56 bg-black">
+        <h2 class="heading text-howler-orange text-center pb-4">Deals of The Week</h2>
+        <div class="pt-6 pb-48">
+            <div id="deal-of-week-slider">
+                <div class="swiper-wrapper">
+                    {% for product in section.settings.weekly-deals.products %}
+                        <div class="swiper-slide text-white p-6" style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url('{{product.featured_image | img_url: '426x572' }}') no-repeat center center / cover">
+                            <div class="mt-56">
+                                <div class="raleway font-bold text-2xl pb-2">{{product.title}}</div>
+                                <div class="montserrat font-bold pb-3">
+                                    <span class="textl-xl">{{product.price_max | money}}</span>
+                                    <span class="text-howler-orange textl-xl pl-2">{{product.compare_at_price_max | money}}</span>
+                                </div>
+                                <button class="btn edo bg-white text-black">
+                                    Shop Now
+                                    <span class="ml-3">
+                                        <svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.81434 7.52868L1.68093 13.5816C1.43335 13.8735 1.03196 13.8735 0.784406 13.5816L0.185678 12.8756C-0.0614783 12.5842 -0.0619537 12.1119 0.184622 11.8198L4.25294 7.00011L0.184622 2.18049C-0.0619537 1.88838 -0.0614783 1.41606 0.185678 1.12463L0.784406 0.418652C1.03198 0.126725 1.43337 0.126725 1.68093 0.418652L6.81431 6.47157C7.06189 6.76346 7.06189 7.23675 6.81434 7.52868Z" fill="#FF7F40"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -37,11 +62,16 @@
         </clipPath>
     </defs>
 </svg>
-
 <script defer="true">
-    document.addEventListener("DOMContentLoaded", function() {
-        console.log("loaded");
+    //Init the slider
+    new Swiper('#deal-of-week-slider', {
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 30
+    });
 
+    //Setup animation
+    document.addEventListener("DOMContentLoaded", function() {
         LottieInteractivity.create({
             player: '#bike-jump',
             mode: 'scroll',
