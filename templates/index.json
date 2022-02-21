@@ -147,6 +147,12 @@
     "featured-collections": {
       "type": "featured-collections",
       "settings": {
+        "collection-1": "men",
+        "collection-2": "women",
+        "collection-3": "bike",
+        "collection-4": "snow",
+        "collection-5": "hike",
+        "collection-6": "camp"
       }
     },
     "recently-viewed": {
