@@ -141,12 +141,12 @@
     "homepage-weekly-deals": {
       "type": "homepage-weekly-deals",
       "settings": {
+        "weekly-deals": "on-sale"
       }
     },
     "featured-collections": {
       "type": "featured-collections",
       "settings": {
-        "collection": ""
       }
     },
     "recently-viewed": {
