@@ -6,12 +6,12 @@
         mode="normal">
     </lottie-player>
 
-    <div>
-        <h2 class="heading bg-black py-56 text-howler-orange text-center">Deals of The Week</h2>
+    <div class="pb-32 bg-black ">
+        <h2 class="heading py-56 text-howler-orange text-center">Deals of The Week</h2>
     </div>
 </section>
 
-<svg width="1440" height="429" viewBox="0 0 1440 429" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg class="relative -top-80" width="auto" height="429" viewBox="0 0 100% 429" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_882_26366)">
         <path d="M0.0999756 150.7H641.9C685 150.7 727.9 157.7 768.8 171.3L1824.5 428.5H1220.2H0.0999756V150.7Z" fill="white"/>
         <path d="M335.2 78.6L306.7 172.4H363.7L335.2 78.6Z" fill="white"/>
@@ -64,6 +64,13 @@
 
 {% schema %}
 {
-    "name":"Weekly Deals"
+    "name":"Weekly Deals",
+    "settings": [
+        {
+            "type":"collection",
+            "id":"weekly-deals",
+            "label":"Weekly Deals Collection"
+        }
+    ]
 }
 {% endschema %}
