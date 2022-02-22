@@ -7,9 +7,9 @@
     </lottie-player>
 
     <div class="py-56 bg-black">
-        <h2 class="heading text-howler-orange text-center pb-4">Deals of The Week</h2>
+        <h2 class="heading text-mm-orange text-center pb-4">Deals of The Week</h2>
         <div class="pt-6 pb-48">
-            <div id="deal-of-week-slider">
+            <div id="deal-of-week-slider" class="overflow-x-clip">
                 <div class="swiper-wrapper">
                     {% for product in section.settings.weekly-deals.products %}
                         <div class="swiper-slide text-white p-6" style="background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url('{{product.featured_image | img_url: '426x572' }}') no-repeat center center / cover">
@@ -17,7 +17,7 @@
                                 <div class="raleway font-bold text-2xl pb-2">{{product.title}}</div>
                                 <div class="montserrat font-bold pb-3">
                                     <span class="textl-xl">{{product.price_max | money}}</span>
-                                    <span class="text-howler-orange textl-xl pl-2">{{product.compare_at_price_max | money}}</span>
+                                    <span class="text-mm-orange textl-xl pl-2">{{product.compare_at_price_max | money}}</span>
                                 </div>
                                 <button class="btn edo bg-white text-black">
                                     Shop Now
