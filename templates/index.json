@@ -163,7 +163,7 @@
     "homepage-about": {
       "type": "homepage-about",
       "settings": {
-        "about-heading": "",
+        "about-heading": "About Mountain Movement",
         "about-content": "Mountain Movement is more than a bike shop--its a way of life. Started in Springfield, Missouri, by riders for riders without compromise. We bring you the best of the best because you deserve nothing less. Our brand is built by pushing the industry and growing the global mountain bike community. When we're not bringing you mind-blowing customer service or providing you the dopest products on the market, you can find us shredding.\n<br>\n<span class=\"text-center\">#StayOfftheConcrete<\/span>"
       }
     }
