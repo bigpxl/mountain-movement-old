@@ -3,23 +3,6 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/MtnMoveOutdoor",
     "social_instagram_link": "https:\/\/www.instagram.com\/mtnmove\/?hl=en",
     "sections": {
-      "announcement-bar": {
-        "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "settings": {
-        }
-      },
       "header": {
         "type": "header",
         "settings": {
