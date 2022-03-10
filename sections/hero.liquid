@@ -1,15 +1,15 @@
-<section>
-
+<section class="bg-no-repeat bg-cover py-40 bg-blend-multiply text-center" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('{{ section.settings.hero_image | img_url: '1500x' }}') no-repeat center center / cover">
+    <h1 class="heading text-white text-center pb-1">{{ page.title | escape }}</h1>
+    <p class="text-white max-w-prose text-center mx-auto">{{ section.settings.body-copy }}</p>
+    <a class="btn edo bg-white text-black mt-6" href="{{ section.settings.button-link.url }}">
+        {{ section.settings.button-text }}
+        {% include 'icon-btn-arrow' %}
+    </a>
 </section>
 {% schema %}
 {
     "name":"Hero",
-    "settings":[
-        {
-            "type":"text",
-            "id":"h1-text",
-            "label":"Page Title"
-        },
+    "settings": [
         {
             "type":"html",
             "id":"body-copy",

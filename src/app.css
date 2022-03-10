@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .btn {
-    @apply inline-flex items-center border-0;
+    @apply inline-flex items-center border-0 text-lg;
     padding:8px 20px;
 }
 
