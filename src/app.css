@@ -20,7 +20,10 @@
 
 /** Layout **/
 .container {
-    @apply max-w-screen-2xl mx-auto my-12 px-3;
+    @apply max-w-screen-2xl mx-auto px-6;
+}
+.section-spacing {
+    @apply my-12;
 }
 
 /** Typography **/
@@ -33,4 +36,10 @@
 }
 p {
     @apply text-lg;
+}
+
+/** Misc **/
+.gridtrack {
+    left:-7.5rem;
+    top:-2.3rem;
 }

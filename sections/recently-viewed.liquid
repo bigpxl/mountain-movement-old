@@ -1,0 +1,29 @@
+<section class="container section-spacing">
+    <h2 class="heading pb-8">
+        Recently Viewed
+        {% include 'icon-gridtrack' %}
+    </h2>
+    <div id="recently-viewed-products" class="grid grid-cols-1 md:grid-cols-5"></div>
+</section>
+
+<script>
+    var products = JSON.parse(localStorage.getItem('recently_viewed'));
+
+    var html = "";
+    products.forEach(function(item) {
+        html += '<div class="product px-3">';
+            html += '<div class="c-product__img">';
+                html += '<img class="mx-auto" src="' + item.productImg + '"/>';
+            html += '</div>';
+
+            html += '<h3>';
+                html += '<a class="montserrat font-bold font-lg" href="' + item.productUrl + '">';
+                html += item.productTitle;
+                html += '</a>';
+            html += '</h3>';
+
+            html += '<p class="montserrat font-lg">' + item.productPrice + '</p>';
+        html += '</div>';
+    });
+    document.querySelector("#recently-viewed-products").innerHTML = html;
+</script>

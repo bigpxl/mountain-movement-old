@@ -71,10 +71,15 @@
       "type": "product-recommendations",
       "settings": {
       }
+    },
+    "product-bottom": {
+      "type": "product-bottom",
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "product-bottom"
   ]
 }

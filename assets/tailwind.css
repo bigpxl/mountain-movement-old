@@ -508,12 +508,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.-top-80 {
-  top: -20rem;
-}
-
 .top-px {
   top: 1px;
+}
+
+.-bottom-1 {
+  bottom: -0.25rem;
 }
 
 .col-span-6 {
@@ -558,6 +558,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mb-10 {
@@ -656,10 +660,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
-.max-w-screen-2xl {
-  max-width: 1536px;
-}
-
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -682,6 +682,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-wrap {
@@ -818,11 +822,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2.5rem;
 }
 
-.py-56 {
-  padding-top: 14rem;
-  padding-bottom: 14rem;
-}
-
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -830,6 +829,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .pb-14 {
@@ -868,8 +871,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.75rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
+.pt-56 {
+  padding-top: 14rem;
 }
 
 .pt-6 {
@@ -886,10 +889,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-2 {
   padding-left: 0.5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -985,11 +984,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .container {
   margin-left: auto;
   margin-right: auto;
+  max-width: 1536px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.section-spacing {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  max-width: 1536px;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 /** Typography **/
@@ -1005,6 +1007,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 p {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+/** Misc **/
+
+.gridtrack {
+  left:-7.5rem;
+  top:-2.3rem;
 }
 
 @media (min-width: 768px) {
@@ -1026,6 +1035,10 @@ p {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .md\:px-8 {
