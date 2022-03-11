@@ -3,6 +3,16 @@
     "hero": {
       "type": "hero",
       "blocks": {
+        "9688b0bf-1ea1-477f-8dee-a4b7a7e2fcb6": {
+          "type": "hero",
+          "settings": {
+            "handle": "our-locations",
+            "body-copy": "We offer two store locations to serve you - and online - so you’re never without the things you need, when you need them.",
+            "button-text": "Shop Bike",
+            "button-link": "our-bike-park",
+            "hero_image": "shopify:\/\/shop_images\/mt-mvmt-exterior.jpg"
+          }
+        },
         "4bf30603-878d-4d43-be22-dffb6ef7c1e8": {
           "type": "hero",
           "settings": {
@@ -125,6 +135,7 @@
         }
       },
       "block_order": [
+        "9688b0bf-1ea1-477f-8dee-a4b7a7e2fcb6",
         "4bf30603-878d-4d43-be22-dffb6ef7c1e8",
         "7be15527-d17b-4fbe-84f6-9c842c718b9e",
         "3d019bcc-69eb-49e0-b28c-dd9f0f2e1582",
