@@ -6,9 +6,10 @@
         "4bf30603-878d-4d43-be22-dffb6ef7c1e8": {
           "type": "hero",
           "settings": {
+            "handle": "about-us",
             "body-copy": "About Test",
-            "button-text": "",
-            "button-link": "",
+            "button-text": "Button Link",
+            "button-link": "branson",
             "hero_image": "shopify:\/\/shop_images\/mt-mvmt-exterior.jpg"
           }
         }
