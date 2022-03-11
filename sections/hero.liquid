@@ -1,13 +1,16 @@
-<section class="bg-no-repeat bg-cover py-40 bg-blend-multiply text-center" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('{{ section.settings.hero_image | img_url: '1500x' }}') no-repeat center center / cover">
-    <h1 class="heading text-white text-center pb-1">{{ page.title | escape }}</h1>
-    {%- for block in section.blocks -%}
-        <p class="text-white max-w-prose text-center mx-auto">{{ block.settings.body-copy }}</p>
-        <a class="btn edo bg-white text-black mt-6" href="{{ block.settings.button-link.url }}">
-            {{ block.settings.button-text }}
-            {% include 'icon-btn-arrow' %}
-        </a>
-    {% endfor %}
-</section>
+{%- for block in section.blocks -%}
+    {% assign b = block.settings %}
+    {% if page.handle == b.page_handle %}
+        <section class="bg-no-repeat bg-cover py-40 bg-blend-multiply text-center" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('{{ block.settings.hero_image | img_url: '1500x' }}') no-repeat center center / cover">
+            <h1 class="heading text-white text-center pb-1">{{ page.title | escape }}</h1>
+                <p class="text-white max-w-prose text-center mx-auto">{{ block.settings.body-copy }}</p>
+                <a class="btn edo bg-white text-black mt-6" href="{{ block.settings.button-link.url }}">
+                    {{ block.settings.button-text }}
+                    {% include 'icon-btn-arrow' %}
+                </a>
+        </section>
+    {% endif %}
+{% endfor %}
 {% schema %}
 {
     "name":"Hero",
@@ -19,6 +22,11 @@
 			"type":"hero",
 			"name":"Hero",
 			"settings": [
+                {
+                    "type":"text",
+                    "id":"handle",
+                    "label":"Handle"
+                },
 				{
                     "type":"html",
                     "id":"body-copy",
