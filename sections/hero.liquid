@@ -1,6 +1,6 @@
 {%- for block in section.blocks -%}
     {% assign b = block.settings %}
-    {% if page.handle == b.page_handle %}
+    {% if page.handle == b.handle %}
         <section class="bg-no-repeat bg-cover py-40 bg-blend-multiply text-center" style="background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('{{ block.settings.hero_image | img_url: '1500x' }}') no-repeat center center / cover">
             <h1 class="heading text-white text-center pb-1">{{ page.title | escape }}</h1>
                 <p class="text-white max-w-prose text-center mx-auto">{{ block.settings.body-copy }}</p>
@@ -16,7 +16,6 @@
     "name":"Hero",
     "settings": [
     ],
-    "max_blocks":1,
 	"blocks": [
 		{
 			"type":"hero",
