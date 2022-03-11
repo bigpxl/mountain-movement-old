@@ -2,6 +2,20 @@
   "sections": {
     "hero": {
       "type": "hero",
+      "blocks": {
+        "4bf30603-878d-4d43-be22-dffb6ef7c1e8": {
+          "type": "hero",
+          "settings": {
+            "body-copy": "Location Test",
+            "button-text": "",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/mt-mvmt-exterior.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "4bf30603-878d-4d43-be22-dffb6ef7c1e8"
+      ],
       "settings": {
       }
     },
