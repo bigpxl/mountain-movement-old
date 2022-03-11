@@ -7,15 +7,25 @@
           "type": "hero",
           "settings": {
             "handle": "about-us",
-            "body-copy": "About Test",
-            "button-text": "Button Link",
-            "button-link": "branson",
-            "hero_image": "shopify:\/\/shop_images\/mt-mvmt-exterior.jpg"
+            "body-copy": "Designed by mountain bikers for mountain bikers, offering goods and equipment to assist the adventure seeking in all of us.",
+            "button-text": "Shop Bike",
+            "button-link": "bike",
+            "hero_image": "shopify:\/\/shop_images\/bike-leaning-truck.jpg"
+          }
+        },
+        "7be15527-d17b-4fbe-84f6-9c842c718b9e": {
+          "type": "hero",
+          "settings": {
+            "handle": "",
+            "body-copy": "",
+            "button-text": "",
+            "button-link": ""
           }
         }
       },
       "block_order": [
-        "4bf30603-878d-4d43-be22-dffb6ef7c1e8"
+        "4bf30603-878d-4d43-be22-dffb6ef7c1e8",
+        "7be15527-d17b-4fbe-84f6-9c842c718b9e"
       ],
       "settings": {
       }
