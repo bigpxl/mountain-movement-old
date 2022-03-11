@@ -3,12 +3,16 @@
     "banner": {
       "type": "main-collection-banner"
     },
-    "product-grid": {
-      "type": "main-collection-product-grid"
+    "sub-list": {
+      "type": "main-collection-sub-list"
+    },
+    "newsletter": {
+      "type": "newsletter"
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "sub-list",
+    "newsletter"
   ]
 }
