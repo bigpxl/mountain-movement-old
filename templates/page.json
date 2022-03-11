@@ -3,11 +3,6 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "h1-text": "Our Locations",
-        "body-copy": "We offer two store locations to serve you - and online - so you’re never without the things you need, when you need them.",
-        "button-text": "Shop Bike",
-        "button-link": "bike",
-        "hero_image": "shopify:\/\/shop_images\/mt-mvmt-exterior.jpg"
       }
     },
     "main": {
