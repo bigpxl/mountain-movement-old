@@ -116,19 +116,11 @@
         "18cc4c5b-9b85-485c-a9ed-b1c7fc05ce60": {
           "type": "hero",
           "settings": {
-            "handle": "",
+            "handle": "privacy-policy",
             "body-copy": "",
             "button-text": "",
-            "button-link": ""
-          }
-        },
-        "8185b5de-5109-4f51-8ca0-8b4f5ca27fe4": {
-          "type": "hero",
-          "settings": {
-            "handle": "",
-            "body-copy": "",
-            "button-text": "",
-            "button-link": ""
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/bike-on-ground.jpg"
           }
         }
       },
@@ -144,8 +136,7 @@
         "e890822e-5e7b-4964-9374-223e9b97ba31",
         "be70c756-2b4c-4bc8-9ad1-ee20c3121553",
         "e5b2524e-e82e-4947-9291-94ed4bed8773",
-        "18cc4c5b-9b85-485c-a9ed-b1c7fc05ce60",
-        "8185b5de-5109-4f51-8ca0-8b4f5ca27fe4"
+        "18cc4c5b-9b85-485c-a9ed-b1c7fc05ce60"
       ],
       "settings": {
       }
