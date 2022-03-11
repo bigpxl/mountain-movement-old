@@ -22,11 +22,77 @@
             "button-link": "",
             "hero_image": "shopify:\/\/shop_images\/bridge_jump_desktop.jpg"
           }
+        },
+        "3d019bcc-69eb-49e0-b28c-dd9f0f2e1582": {
+          "type": "hero",
+          "settings": {
+            "handle": "our-brands",
+            "body-copy": "Search our highly-rated, professional brands that are the leaders in the mountain biking industry.",
+            "button-text": "",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/bike-line.jpg"
+          }
+        },
+        "178431c8-2c2c-4c40-9e1e-21b78fd5d86e": {
+          "type": "hero",
+          "settings": {
+            "handle": "become-an-affiliate",
+            "body-copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices diam sit amet neque hendrerit venenatis.",
+            "button-text": "Sign Up",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/bike-sharp-turn.jpg"
+          }
+        },
+        "78a48e69-ab69-4d34-9d01-eb777c42e421": {
+          "type": "hero",
+          "settings": {
+            "handle": "group-sales",
+            "body-copy": "Need products in bulk? We offer group sale perks and discounts.",
+            "button-text": "Sign Up",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/park-tools.jpg"
+          }
+        },
+        "03c0e3b0-07fc-4d73-83e4-6519a5c57e0b": {
+          "type": "hero",
+          "settings": {
+            "handle": "financing",
+            "body-copy": "Ready for a new bike right now? We offer financing options for mountain bikes and equipment.",
+            "button-text": "Sign Up",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/bikes-standing-closeup.jpg"
+          }
+        },
+        "f8f5aefa-fb45-4749-87b4-2d60140d8be5": {
+          "type": "hero",
+          "settings": {
+            "handle": "faqs",
+            "body-copy": "Have a question for us? Check below for some of our commonly asked questions.",
+            "button-text": "Sign Up",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/aerial-jump_full.jpg"
+          }
+        },
+        "f914bece-0036-4258-8fbd-739b6b522502": {
+          "type": "hero",
+          "settings": {
+            "handle": "contact-us",
+            "body-copy": "",
+            "button-text": "",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/ramp.jpg"
+          }
         }
       },
       "block_order": [
         "4bf30603-878d-4d43-be22-dffb6ef7c1e8",
-        "7be15527-d17b-4fbe-84f6-9c842c718b9e"
+        "7be15527-d17b-4fbe-84f6-9c842c718b9e",
+        "3d019bcc-69eb-49e0-b28c-dd9f0f2e1582",
+        "178431c8-2c2c-4c40-9e1e-21b78fd5d86e",
+        "78a48e69-ab69-4d34-9d01-eb777c42e421",
+        "03c0e3b0-07fc-4d73-83e4-6519a5c57e0b",
+        "f8f5aefa-fb45-4749-87b4-2d60140d8be5",
+        "f914bece-0036-4258-8fbd-739b6b522502"
       ],
       "settings": {
       }
