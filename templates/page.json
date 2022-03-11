@@ -102,6 +102,34 @@
             "button-link": "",
             "hero_image": "shopify:\/\/shop_images\/aerial-jump_full.jpg"
           }
+        },
+        "e5b2524e-e82e-4947-9291-94ed4bed8773": {
+          "type": "hero",
+          "settings": {
+            "handle": "disclaimer",
+            "body-copy": "",
+            "button-text": "",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/vehicle-in-forest.jpg"
+          }
+        },
+        "18cc4c5b-9b85-485c-a9ed-b1c7fc05ce60": {
+          "type": "hero",
+          "settings": {
+            "handle": "",
+            "body-copy": "",
+            "button-text": "",
+            "button-link": ""
+          }
+        },
+        "8185b5de-5109-4f51-8ca0-8b4f5ca27fe4": {
+          "type": "hero",
+          "settings": {
+            "handle": "",
+            "body-copy": "",
+            "button-text": "",
+            "button-link": ""
+          }
         }
       },
       "block_order": [
@@ -114,7 +142,10 @@
         "f8f5aefa-fb45-4749-87b4-2d60140d8be5",
         "f914bece-0036-4258-8fbd-739b6b522502",
         "e890822e-5e7b-4964-9374-223e9b97ba31",
-        "be70c756-2b4c-4bc8-9ad1-ee20c3121553"
+        "be70c756-2b4c-4bc8-9ad1-ee20c3121553",
+        "e5b2524e-e82e-4947-9291-94ed4bed8773",
+        "18cc4c5b-9b85-485c-a9ed-b1c7fc05ce60",
+        "8185b5de-5109-4f51-8ca0-8b4f5ca27fe4"
       ],
       "settings": {
       }
