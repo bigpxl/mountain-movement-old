@@ -16,10 +16,11 @@
         "7be15527-d17b-4fbe-84f6-9c842c718b9e": {
           "type": "hero",
           "settings": {
-            "handle": "",
-            "body-copy": "",
+            "handle": "howler-bike-park",
+            "body-copy": "The best built Mountain Bike Trail in the region is under construction deep in the heart of the Missouri Ozark Mountains! Follow our social media for updates and progress.",
             "button-text": "",
-            "button-link": ""
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/bridge_jump_desktop.jpg"
           }
         }
       },
