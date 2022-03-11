@@ -92,6 +92,16 @@
             "button-link": "",
             "hero_image": "shopify:\/\/shop_images\/walking-bikes.jpg"
           }
+        },
+        "be70c756-2b4c-4bc8-9ad1-ee20c3121553": {
+          "type": "hero",
+          "settings": {
+            "handle": "terms-and-conditions",
+            "body-copy": "",
+            "button-text": "",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/aerial-jump_full.jpg"
+          }
         }
       },
       "block_order": [
@@ -103,7 +113,8 @@
         "03c0e3b0-07fc-4d73-83e4-6519a5c57e0b",
         "f8f5aefa-fb45-4749-87b4-2d60140d8be5",
         "f914bece-0036-4258-8fbd-739b6b522502",
-        "e890822e-5e7b-4964-9374-223e9b97ba31"
+        "e890822e-5e7b-4964-9374-223e9b97ba31",
+        "be70c756-2b4c-4bc8-9ad1-ee20c3121553"
       ],
       "settings": {
       }
