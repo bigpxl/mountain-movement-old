@@ -82,6 +82,16 @@
             "button-link": "",
             "hero_image": "shopify:\/\/shop_images\/ramp.jpg"
           }
+        },
+        "e890822e-5e7b-4964-9374-223e9b97ba31": {
+          "type": "hero",
+          "settings": {
+            "handle": "shipping-and-returns",
+            "body-copy": "",
+            "button-text": "",
+            "button-link": "",
+            "hero_image": "shopify:\/\/shop_images\/walking-bikes.jpg"
+          }
         }
       },
       "block_order": [
@@ -92,7 +102,8 @@
         "78a48e69-ab69-4d34-9d01-eb777c42e421",
         "03c0e3b0-07fc-4d73-83e4-6519a5c57e0b",
         "f8f5aefa-fb45-4749-87b4-2d60140d8be5",
-        "f914bece-0036-4258-8fbd-739b6b522502"
+        "f914bece-0036-4258-8fbd-739b6b522502",
+        "e890822e-5e7b-4964-9374-223e9b97ba31"
       ],
       "settings": {
       }
